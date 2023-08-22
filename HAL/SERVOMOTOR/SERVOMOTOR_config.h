@@ -1,13 +1,14 @@
-/*
- * SERVOMOTOR_config.h
- *
- *  Created on: Aug 16, 2023
- *      Author: user
- */
-
+/*******************************************************************/
+/*******************************************************************/
+/*******************    Author: Mohamed Fathy    *******************/
+/*******************    Layer:  HAL              *******************/
+/*******************    SWC:    Servo            *******************/
+/*******************    Version:1.00             *******************/
+/*******************************************************************/
+/*******************************************************************/
 #ifndef HAL_SERVOMOTOR_SERVOMOTOR_CONFIG_H_
 #define HAL_SERVOMOTOR_SERVOMOTOR_CONFIG_H_
 
-
+#define SERVO_MODE_TOP_TICKS				2500		//FROM 0 TO 65535 // make sure to make the period time 20ms
 
 #endif /* HAL_SERVOMOTOR_SERVOMOTOR_CONFIG_H_ */
