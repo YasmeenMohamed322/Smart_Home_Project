@@ -6,8 +6,8 @@
  */
 
 
-#include "../../stdTypes.h"
-#include "../../errorStates.h"
+#include "../../LIB/stdTypes.h"
+#include "../../LIB/errorStates.h"
 
 #include "GIE_priv.h"
 
