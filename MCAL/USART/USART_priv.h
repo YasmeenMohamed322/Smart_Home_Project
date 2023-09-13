@@ -75,7 +75,7 @@
 
 
 //equation for baud rate
-#define BAUDEQN(BAUD_RATE)                (u16)((F_CPU/SPEED_MODE*8*BAUD_RATE)-1)
+#define BAUDEQN(BAUD_RATE)                (u16)((F_CPU/(SPEED_MODE*8*BAUD_RATE))-1)
 
 
 #endif /* MCAL_USART_USART_PRIV_H_ */

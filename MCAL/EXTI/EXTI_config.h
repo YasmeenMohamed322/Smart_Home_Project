@@ -1,13 +1,15 @@
-/*
- * EXTI_config.h
- *
- *  Created on: Aug 15, 2023
- *      Author: user
- */
-
 #ifndef MCAL_EXTI_EXTI_CONFIG_H_
 #define MCAL_EXTI_EXTI_CONFIG_H_
 
+typedef struct
+{
+	u8 EXTI_u8Istate;
+	u8 EXTI_u8SenceControl;
+}EXTI_T;
 
 
-#endif /* MCAL_EXTI_EXTI_CONFIG_H_ */
+#define EXTI_INT0  0
+#define EXTI_INT1  1
+#define EXTI_INT2  2
+
+#endif
